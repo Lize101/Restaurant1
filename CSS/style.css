@@ -10,19 +10,21 @@
 }
 
 .nav {
-    background-color: purple;
-    height: 100px;
+    background-color: rgb(43, 6, 89);
+    height: 75px;
+    text-align: center;
 }
 
 .nav a {
     color: white;
     text-decoration: none;
+
 }
 
 /* IMAGES */
-
+/* Added alpha gradient/opacity to background image - also added shorthand for background position, size, repeat and attachment */
 .bgimg1{
-    background: url("../Images/Headerimage.jpg");
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../Images/Headerimage.jpg") center/cover no-repeat fixed; /*NOTE the order of center/cover is important*/
     min-height: 100vh;
 }
 
