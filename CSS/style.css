@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    /* background-color: aqua; */
+    min-height: calc(100vh - 100px);  /* calc - can use + - * or / to do calculations */
+}
+
+.nav {
+    background-color: purple;
+    height: 100px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* IMAGES */
+
+.bgimg1{
+    background: url("../Images/Headerimage.jpg");
+    min-height: 100vh;
+}
+
+.bgimg2{
+    background: url("../Images/Main\ image1.jpg");
+    min-height: 100vh;
+}
+
+.smallbgimg1{
+    background: url("../Images/Menu\ image1.jpg");
+    width: 30%;
+    height: 500px;
+}
+
+.smallbgimg2{
+    background: url("../Images/Menu\ image2.jpg");
+    width: 30%;
+    height: 500px;
+}
+
+.smallbgimg3{
+    background: url("../Images/Menu\ image3.jpg");
+    width: 30%;
+    height: 500px;
+}
