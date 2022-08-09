@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    text-align: center;
+    font-family: Alice;
 }
 
 
@@ -10,18 +12,50 @@
 }
 
 .nav {
-    background-color: rgb(43, 6, 89);
-    height: 75px;
+    background-color: #59146c;
+    height: 50px;
     text-align: center;
+    padding-top: 30px;
 }
 
 .nav a {
     color: white;
     text-decoration: none;
+    padding: 0 20px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
 
+/* HEADINGS */
+
+.h1 {
+    margin: 15% auto;
+    color: white;
+    font-size: 65px;
+}
+
+.h1, .h2 {
+    font-weight: 400;
+    line-height: 16px; /*aka 1em*/
+    letter-spacing: .14em;
+    text-transform: uppercase;
+}
+
+.h2{
+    color: #59146c;
+    font-size: 50px;
 }
 
 /* IMAGES */
+
+.mainlogo{
+    padding-top: 30px;
+}
+
+.smalllogo {
+    padding: 30px 0 50px 0;
+}
+
 /* Added alpha gradient/opacity to background image - also added shorthand for background position, size, repeat and attachment */
 .bgimg1{
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../Images/Headerimage.jpg") center/cover no-repeat fixed; /*NOTE the order of center/cover is important*/
