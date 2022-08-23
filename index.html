@@ -4,46 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>Thai Food Restaurant</title>
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="header">
+        <nav class="nav">
             <a href="#">Food menu</a>
             <a href="#">Drinks menu</a>
             <a href="#">Book a table</a>
             <a href="#">Contact</a>
         </nav>
-        <img src="./Images/Logo.png" alt="Restaurant Logo">
-        <h1>Thai Restaurant</h1>
-        <img src="./Images/Header image.jpg" alt="Header image">
+        <!-- Add background img in css for all images - background: url() -->
+        <div class="bgimg1">
+            <!-- Resize image to 252px before adding -->
+            <img class="mainlogo" src="./Images/Logo.png" alt="Restaurant Logo" width="252px">
+            <h1 class="h1">True Taste of Thailand</h1>
+        </div>
+        <!-- <img src="./Images/Header image.jpg" alt="Header image"> -->
     </header>
     <main>
         <section>
-            <img src="./Images/Small logo.png" alt="Small logo">
-            <h2>Our menu</h2>
-            <img src="./Images/Menu image1.jpg" alt="Food image 1">
+            <img class="smalllogo" src="./Images/Small logo.png" alt="Small logo">
+            <h2 class="h2">Our menu</h2>
+            <hr>
+            <div class="smallimgflex">
+                <div class="smallbgimg1"></div>
+                <div class="smallbgimg2"></div>
+                <div class="smallbgimg3"></div>
+            </div>
+            <!-- <img src="./Images/Menu image1.jpg" alt="Food image 1">
             <img src="./Images/Menu image2.jpg" alt="Food image 2">
-            <img src="./Images/Menu image3.jpg" alt="Food image 3">
+            <img src="./Images/Menu image3.jpg" alt="Food image 3"> -->
             <p>Discover our menu and experience the true taste of Thailand</p>
-            <a href="http://">View menu</a>
+            <a class="menuBtn" href="http://">View menu</a>
         </section>
         <section>
-            <img src="./Images/Small logo.png" alt="Small logo">
-            <h2>Food at home</h2>
+            <img class="smalllogo" src="./Images/Small logo.png" alt="Small logo">
+            <h2 class="h2">Food at home</h2>
+            <hr>
             <p>15% OFF AND EARN 2% BACK</p>
-            <a href="http://">COLLECTION OR DELIVERY - CLICK HERE</a>
-            <a href="http://">READ ABOUT THE HISTORY OF OUR RESTAURANT</a>
+            <a class="clickbtn" href="http://">COLLECTION OR DELIVERY - CLICK HERE</a>
+            <br><br><br>
+            <hr>
+            <br><br>
+            <a class="clickbtn" href="http://">READ ABOUT THE HISTORY OF OUR RESTAURANT</a>
             <p>MULTI-AWARD WINNING THAI RESTAURANT AND WINE BAR SINCE 2003</p>
         </section>
         <section>
-            <img src="./Images/Main image1.jpg" alt="Main image">
-            <h2>Make a reservation</h2>
-            <p>BOOK A TABLE TODAY TO EXPERIENCE THE BEST THAI FOOD</p>
+            <div class="bgimg2">
+                <!-- <img src="./Images/Main image1.jpg" alt="Main image"> -->
+                <!-- <h2 class="h2">Make a reservation</h2> -->
+                <a href="#" class="reservation">Make a reservation</a>
+                <p>BOOK A TABLE TODAY TO EXPERIENCE THE BEST THAI FOOD</p>
+            </div>
         </section>
         <section>
-            <img src="./Images/Small logo.png" alt="Small logo">
-            <h2>Reviews</h2>
+            <img class="smalllogo" src="./Images/Small logo.png" alt="Small logo">
+            <h2 class="h2">Reviews</h2>
             <section>
                 <q>Unbelievable food and beautiful scenery.</q>
             </section>
@@ -54,20 +72,20 @@
                 <q>A great place to go if you are celebrating a special occasion.</q>
             </section>
             <section>
-                <q>Some of the best tasting Thai food image 1 have ever had!</q>
+                <q>Some of the best tasting Thai food I have ever had!</q>
             </section>
         </section>
     </main>
     <footer>
-        <img src="./Images/Small logo.png" alt="Small logo">
+        <img class="smalllogo" src="./Images/Small logo.png" alt="Small logo">
         <h2>Contact</h2>
         <form action="">
             <label for="">First Name:</label>
-            <input type="text">
+            <input type="text"><br><br>
             <label for="">Last Name:</label>
-            <input type="text">
+            <input type="text"><br><br>
             <label for="">Email:</label>
-            <input type="email">
+            <input type="email"><br><br>
             <input type="button" value="Submit">
         </form>
         <p>Copyright &copy;</p>
