@@ -119,19 +119,6 @@ p{
     height: 300px; */
 }
 
-.quotes{
-    display: flex;
-    justify-content: space-around;
-    margin: 50px;
-    padding: 50px;
-}
-
-q{
-    color: rgb(106, 104, 104);
-    font-size: 18px;
-    
-}
-
 /* BUTTONS */
 
 .menuBtn {
@@ -156,4 +143,25 @@ q{
     text-transform: uppercase;
     border: 3px solid white;
     padding: 30px 40px;
+}
+
+/* QUOTES AND STAR RATING */
+
+.quotes{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    padding: 50px;
+}
+
+q{
+    color: rgb(106, 104, 104);
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.fa{
+    color: #59146c;
+    width: 40px;
+    /* height: 40px; */
 }
