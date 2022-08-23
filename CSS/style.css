@@ -131,9 +131,18 @@ p{
     text-transform: uppercase;
 }
 
+.menuBtn:hover {
+    color: white;
+    background-color: #59146c;
+}
+
 .clickbtn {
     color: rgb(106, 104, 104);
     letter-spacing: 2px;
+}
+
+.clickbtn:hover{
+    color: darkgrey;
 }
 
 .reservation{
@@ -143,6 +152,11 @@ p{
     text-transform: uppercase;
     border: 3px solid white;
     padding: 30px 40px;
+}
+
+.reservation:hover{
+    color: black;
+    background-color: white;
 }
 
 /* QUOTES AND STAR RATING */
