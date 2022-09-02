@@ -221,11 +221,14 @@ form{
 
     .smallimgflex {
         width: 100%;
+        display: block;
       }
 
     .smallbgimg1, .smallbgimg2, .smallbgimg3 {
-        width: 100%;
-        display: block;
+        width: 80%;
+        margin: 20px;
+        border-radius: 5%;
+       
     }
 
     /* PARAGRAPHS */
