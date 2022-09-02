@@ -18,12 +18,20 @@
     padding-top: 30px;
 }
 
+.nav #links {
+    display: block;
+}
+
 .nav a {
     color: white;
     text-decoration: none;
     padding: 0 20px;
     letter-spacing: 7px;
     text-transform: uppercase;
+}
+
+.nav .fa-bars {
+    display: none;
 }
 
 /* HEADINGS */
@@ -207,7 +215,31 @@ form{
 
 /* MOBILE VIEW - RESPONSIVE*/
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 480px) {
+
+    /* MENU */
+
+    .nav .fa-bars {
+        display: inline-block;
+        font-size: 25px;
+        position: absolute;
+
+    }
+
+    .nav #links {
+        display: none;
+        /* background-color: black; */
+        height: 100%;
+    }
+
+    .nav a {
+        padding: 0px 60px;
+        /* margin: 150px; */
+        letter-spacing: 5px;
+    }
+    
+
+    /* HEADINGS */
     .h1 {
         font-size: 32px;
         line-height: 1.5em;

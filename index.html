@@ -11,10 +11,15 @@
 <body>
     <header class="header">
         <nav class="nav">
-            <a href="#">Food menu</a>
-            <a href="#">Drinks menu</a>
-            <a href="#">Book a table</a>
-            <a href="#">Contact</a>
+            <div id="links">
+                <a href="#">Food menu</a>
+                <a href="#">Drinks menu</a>
+                <a href="#">Book a table</a>
+                <a href="#">Contact</a>
+            </div>
+            <a href="#" class="smallMenu" onclick="verticalMenu()">
+                <i class="fa fa-bars" style="color: white;" aria-hidden="true"></i>
+            </a>
         </nav>
         <!-- Add background img in css for all images - background: url() -->
         <div class="bgimg1">
@@ -119,5 +124,6 @@
         </form>
         <p>Copyright &copy;</p>
     </footer>
+    <script src="./JS/app.js"></script>
 </body>
 </html>
