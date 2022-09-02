@@ -263,24 +263,33 @@ form{
         color: rgb(106, 104, 104);
         font-size: 18px;
         letter-spacing: 1px;
-        margin-top: -30px;
-        margin-bottom: 20px;
+        margin-bottom: 80px;
     }
     
     .fa{
         color: #59146c;
-        width: 40px;
+        width: 20px;
         /* height: 40px; */
     }
     
     /* FORM */
-    
-    form{
-        background-color: #59146c;
-        width: 90%;
-        padding: 50px;
-        margin: auto;
-    }
+
+form{
+    width: 100%;
+}
+
+.input{
+    width: 100%;
+}
+
+.submit{
+    width: 50%;
+}
+
+.input, .submit {
+    font-size: 18px;
+    height: 40px;
+}
 
 
 }
