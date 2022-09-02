@@ -172,6 +172,8 @@ q{
     color: rgb(106, 104, 104);
     font-size: 18px;
     letter-spacing: 1px;
+    margin: 50px 30px;
+    display: block;
 }
 
 .fa{
@@ -249,6 +251,35 @@ form{
 
     .centreElements{
         padding-top: 100%; /*Centre reservation button text*/
+    }
+
+    /* QUOTES */
+
+    .quotes{
+        display: block;
+    }
+    
+    q{
+        color: rgb(106, 104, 104);
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin-top: -30px;
+        margin-bottom: 20px;
+    }
+    
+    .fa{
+        color: #59146c;
+        width: 40px;
+        /* height: 40px; */
+    }
+    
+    /* FORM */
+    
+    form{
+        background-color: #59146c;
+        width: 90%;
+        padding: 50px;
+        margin: auto;
     }
 
 
