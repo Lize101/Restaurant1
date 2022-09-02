@@ -201,3 +201,52 @@ form{
     font-size: 18px;
     height: 40px;
 }
+
+
+/* MOBILE VIEW - RESPONSIVE*/
+
+@media screen and (max-width: 550px) {
+    .h1 {
+        font-size: 32px;
+        line-height: 1.5em;
+        font-weight: 400;
+        padding-top: 100px; /*Centre heading text*/
+    }
+
+    .h2{
+        font-size: 32px;
+    }
+
+    /* MOBILE IMAGES */
+
+    .smallimgflex {
+        width: 100%;
+      }
+
+    .smallbgimg1, .smallbgimg2, .smallbgimg3 {
+        width: 100%;
+        display: block;
+    }
+
+    /* PARAGRAPHS */
+
+    p{
+        margin: 50px;
+        font-size: 15px;
+    }
+
+    /* BUTTONS */
+
+    .reservation{
+        font-size: 18px;
+        padding: 30px 40px;
+        width: auto;
+        height: auto;
+    }
+
+    .centreElements{
+        padding-top: 100%; /*Centre reservation button text*/
+    }
+
+
+}
